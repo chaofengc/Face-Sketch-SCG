@@ -81,10 +81,10 @@ def cal_all_scores(test_dir, gt_dir, method_name=None, direction='AtoB'):
     dists_score = avg_dir_score(test_dir, gt_dir, 'dists')
 
     if method_name is not None:
-        print(f'{method_name}, {direction}, FSIM: {fsim_score:.4f}, LPIPS: {lpips_score:.4f}, DISTS: {dists_score:.4f}')
+        print(f'{test_dir}, {method_name}, {direction}, FSIM: {fsim_score:.4f}, LPIPS: {lpips_score:.4f}, DISTS: {dists_score:.4f}')
     elif direction is not None:
-        print(f'{direction}, FSIM: {fsim_score:.4f}, LPIPS: {lpips_score:.4f}, DISTS: {dists_score:.4f}')
+        print(f'{test_dir}, {direction}, FSIM: {fsim_score:.4f}, LPIPS: {lpips_score:.4f}, DISTS: {dists_score:.4f}')
     else:
-        print(f'FSIM: {fsim_score:.4f}, LPIPS: {lpips_score:.4f}, DISTS: {dists_score:.4f}')
+        print(f'{test_dir}, FSIM: {fsim_score:.4f}, LPIPS: {lpips_score:.4f}, DISTS: {dists_score:.4f}')
 
     return fsim_score, lpips_score, dists_score

@@ -5,11 +5,10 @@ This is the official PyTorch codes for the journal extension of our [previous wo
 [**Semi-supervised Cycle-GAN for face photo-sketch translation in the wild.**](https://arxiv.org/abs/2307.10281)  
 [Chaofeng Chen](https://chaofengc.github.io), [Wei Liu](https://scholar.google.com/citations?user=3to3lqMAAAAJ&hl=en), [Xiao Tan](https://scholar.google.com/citations?user=R1rVRUkAAAAJ&hl=en), [Kwan-Yee K. Wong](http://i.cs.hku.hk/~kykwong/)  
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/xxx)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2307.10281)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=chaofengc/Face-Sketch-SCG)
 [![Citation](https://img.shields.io/badge/Citation-bibtex-green)](https://github.com/chaofengc/Face-Sketch-SCG/blob/master/README.md#-citation)
-[![LICENSE](https://img.shields.io/badge/LICENSE-CC%20BY--NC--SA%204.0-lightgrey)](https://github.com/chaofengc/FeMaSR/blob/main/LICENSE)
-<!-- <a href=""><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>  -->
+[![LICENSE](https://img.shields.io/badge/LICENSE-CC%20BY--NC--SA%204.0-lightgrey)](https://github.com/chaofengc/Face-Sketch-SCG/blob/master/LICENSE)
 
 | Framework | Noise-injection |
 | :-----: | :------: |
@@ -64,7 +63,7 @@ Released | 0.7349/0.3140/0.1875 | 0.7258/0.3473/0.1777 | 0.7010/0.3165/0.2528
 Paper Results (BtoA) | 0.7652/0.3374/0.1710 | 0.7777/0.3527/0.2082 | N/A 
 Released | 0.7789/0.2874/0.1633 | 0.7816/0.3592/0.2229 | N/A
 
-Here is the example benchmark test script for photo-to-sketch (BtoA) with CUFS dataset:
+Here is the example benchmark test script for photo-to-sketch (AtoB) with CUFS dataset:
 ```
 python test.py -i ./dataset/CUFS/test_photos/ -o tmp_test_results -s cufs -d AtoB -g ./dataset/CUFS/test_sketches/
 ```
