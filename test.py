@@ -44,7 +44,7 @@ def main():
     args = parser.parse_args()
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    test_size = (256, 256)   # Test with slightly larger resolution for better quality
+    test_size = (256, 256)   # Test with training image size
 
     model_url_key = f'{args.style}_{args.direction}'
     if args.weight is None:
