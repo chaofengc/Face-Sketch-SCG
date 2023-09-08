@@ -72,9 +72,9 @@ python test.py -i ./dataset/CUFS/test_photos/ -o tmp_test_results -s cufs -d Ato
 
 You may first download the datasets and use the provided example script to train the model.
 ## ⏬ Download Datasets
-For convenient, we put all the training dataset [here](). Please download and extract them under the `dataset/` folder. You may also download the dataset with the following commands:
+For convenient, we put all the training dataset [here](https://github.com/chaofengc/Face-Sketch-SCG/releases/tag/v0.1). Please download and extract them under the `dataset/` folder. You may also download the dataset with the following commands:
 ```
-bash download_dataset.sh
+wget https://github.com/chaofengc/Face-Sketch-SCG/releases/download/v0.1/dataset.tgz
 ``` 
 
 ## 👩🏻‍💻 Train Commands 
