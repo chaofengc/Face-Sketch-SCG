@@ -98,7 +98,7 @@ If you find this code or the provided data useful in your research, please consi
 ```
 @inproceedings{chen2023face-sketch-scg,
     title={Semi-supervised Cycle-GAN for face photo-sketch translation in the wild},
-    author={Chen, Chaofeng and Liu, Wei and Tan, Xiao and Wong, KKY},
+    author={Chen, Chaofeng and Liu, Wei and Tan, Xiao and Wong, Kwan-Yee~K},
     booktitle={Computer Vision and Image Understanding (CVIU)},
     year={2023},
     doi={https://doi.org/10.1016/j.cviu.2023.103775},
